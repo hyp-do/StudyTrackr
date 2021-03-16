@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyTrackr.LoginPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add Student" Activated="AddStudent_OnActivated"/>
+        <ToolbarItem Text="Manage Students" Order="Secondary" Activated="ManageStudents_OnActivated"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout AutomationId="stackLayout">
+
+            <Image  Source="g667.png"
+                    WidthRequest="{OnPlatform Android=175, iOS=225}"
+                    HorizontalOptions="Center"
+                    Margin="10,10,00,10"/>
+
+            <Label Text="University Student Log In"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                   Margin="0,10,0,75"/>
+
+            <Label Text="Student ID" 
+                   FontSize="Medium" FontAttributes="Bold"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+                   Margin="75,0,0,0"/>
+            
+            <Entry x:Name="StudentIdEntry"
+                   AutomationId="StudentIdEntry"
+                   Placeholder="Enter Student ID"
+                   Margin="75,0,100,0"/>
+
+            <Label Text="Password" 
+                   FontSize="Medium" FontAttributes="Bold"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+                   Margin="75,0,0,0"/>
+
+
+            <Entry x:Name="StudentPasswordEntry"
+                   AutomationId="StudentPasswordEntry"
+                   Placeholder="Enter Password"
+                   IsPassword="True"
+                   Margin="75,0,100,0"/>
+
+            <StackLayout>
+                <Button 
+                    x:Name="LoginButton"
+                    AutomationId="LoginButton"
+                    Text="Login" TextColor="White" 
+                    BackgroundColor="#002f51"
+                    CornerRadius="10"
+                    Margin="50,25,50,5"
+                    Clicked="LoginButton_OnClicked"
+                    />
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

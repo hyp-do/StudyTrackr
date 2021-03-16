@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyTrackr.AddStudent">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image  Source="g18.png"
+                    WidthRequest="{OnPlatform Android=175, iOS=225}"
+                    HorizontalOptions="Start"
+                    Margin="10,10,00,10"/>
+
+            <ScrollView>
+                <StackLayout>
+
+                    <Label x:Name="AddStudentLabel" FontSize="Large" Text="Add Student" FontAttributes="Bold" HorizontalOptions="Start"
+                       Margin="5,10,00,5"/>
+
+                <Label Text="Student Id" FontSize="Medium"  FontAttributes="Bold" 
+                   Margin="5,0,0,0"/>
+
+                <Entry HorizontalOptions="Fill" 
+                   Margin="15,0,15,0"
+                   x:Name="StudentIdEntry"
+                   Placeholder="Enter your University Provided Student ID"/>
+
+                <Label Text="Password" FontSize="Medium"  FontAttributes="Bold"
+                   Margin="5,0,0,0"/>
+
+                <Entry HorizontalOptions="Fill" 
+                   Margin="15,0,15,5"
+                   Placeholder="Create a password"
+                   x:Name="PasswordEntry"
+                   IsPassword="True"/>
+
+                <Label Text="First Name" FontSize="Medium"  FontAttributes="Bold" 
+                   Margin="5,0,0,0"/>
+
+                <Entry HorizontalOptions="Fill" 
+                   Margin="15,0,15,5"
+                   x:Name="FirstNameEntry"/>
+
+                <Label Text="Last Name" FontSize="Medium"  FontAttributes="Bold" 
+                   Margin="5,0,0,0"/>
+
+                <Entry HorizontalOptions="Fill" 
+                   Margin="15,0,15,5"
+                   x:Name="LastNameEntry"/>
+
+                <Label Text="Student Email Address" FontSize="Medium"  FontAttributes="Bold" 
+                   Margin="5,0,0,0"/>
+
+                <Entry HorizontalOptions="Fill" 
+                   Margin="15,0,15,5"
+                   x:Name="StudentEmailEntry"
+                   Placeholder="Enter your University provided Student Email Address"/>
+
+                <Button 
+             
+                    Text="Save" TextColor="White" 
+                    BackgroundColor="#002f51"
+                    CornerRadius="10"
+                    Margin="10,10,10,5"
+                    x:Name="AddStudentSaveButton"
+                    Clicked="AddStudentSaveButton_OnClicked"/>
+
+            </StackLayout>
+        </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

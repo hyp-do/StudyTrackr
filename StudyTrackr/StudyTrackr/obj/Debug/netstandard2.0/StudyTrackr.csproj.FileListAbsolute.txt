@@ -1,0 +1,37 @@
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\bin\Debug\netstandard2.0\StudyTrackr.deps.json
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\bin\Debug\netstandard2.0\StudyTrackr.dll
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\bin\Debug\netstandard2.0\ref\StudyTrackr.dll
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\bin\Debug\netstandard2.0\StudyTrackr.pdb
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\AddStudent.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Assessments\AddAssessment.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Assessments\AssessmentPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Assessments\DisplayAssessment.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Assessments\EditAssessment.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Course Notes\AddCourseNotes.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Course Notes\CourseNotesPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Course Notes\DisplayCourseNotes.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Course Notes\EditCourseNotes.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Course\AddCourse.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Course\CoursePage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Course\EditCourse.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\DisplayUserPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\EditUserPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\ManageStudents.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\PersonalNotes\AddPersonalNotes.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\PersonalNotes\DisplayPersonalNotes.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\PersonalNotes\EditPersonalNotes.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\PersonalNotes\PersonalNotesPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Term\AddTermPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Term\EditTermPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Term\MainPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Term\TermPage.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\Term\TermReport.xaml.g.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\StudyTrackr.AssemblyInfoInputs.cache
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\StudyTrackr.AssemblyInfo.cs
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\StudyTrackr.csproj.CoreCompileInputs.cache
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\XamlC.stamp
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\StudyTrackr.dll
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\ref\StudyTrackr.dll
+D:\projects\StudyTrackr\StudyTrackr\StudyTrackr\obj\Debug\netstandard2.0\StudyTrackr.pdb

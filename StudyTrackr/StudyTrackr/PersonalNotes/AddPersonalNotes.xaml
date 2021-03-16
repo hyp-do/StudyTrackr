@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyTrackr.AddPersonalNotes">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image  Source="g18.png"
+                    WidthRequest="{OnPlatform Android=175, iOS=225}"
+                    HorizontalOptions="Start"
+                    Margin="10,10,00,10"/>
+
+            <Label x:Name="PersonalLabel"  FontSize="Large"  FontAttributes="Bold" 
+                   Margin="5,0,0,5"/>
+
+            <Label x:Name="NoteTypeLabel" Text="Note Type" FontSize="Large"  FontAttributes="Bold" 
+                   Margin="5,0,0,5"/>
+
+            <Picker x:Name="NoteTypePicker" SelectedIndexChanged="NoteTypePicker_OnSelectedIndexChanged" Margin="15,0,15,0">
+                <Picker.Items>
+                    <x:String>Personal</x:String>
+                    <x:String>Course</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label x:Name="CourseLabel" Text="Courses" FontSize="Large"  FontAttributes="Bold" 
+                   Margin="5,0,0,5"
+                   IsEnabled="False"
+                   IsVisible="False"/>
+
+            <!-- PropertyChanged="CoursePicker_OnPropertyChanged" -->
+
+            <Picker x:Name="CoursePicker"  IsVisible="False" IsEnabled="False" Margin="15,0,15,0" />
+
+            <Label x:Name="NoteTitleLabel" Text="Note Title" FontSize="Medium" FontAttributes="Bold"
+                   Margin="5,0,0,0" />
+
+            <Entry HorizontalOptions="Fill"
+                   Margin="15,0,15,15"
+                   x:Name="NoteTitleEntry"
+                   />
+
+            <Label x:Name="NoteDataLabel" Text="Enter Note"  FontSize="Medium"  FontAttributes="Bold" 
+                   Margin="5,0,0,0"/>
+
+            <Editor x:Name="NoteEditor" FontSize="Default" />
+
+            <StackLayout>
+
+                <Button 
+             
+                    Text="Save Note" TextColor="White" 
+                    BackgroundColor="#002f51"
+                    CornerRadius="10"
+                    Margin="10,30,10,10"
+                    x:Name="NoteSaveButton"
+                    Clicked="NoteSaveButton_OnClicked"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

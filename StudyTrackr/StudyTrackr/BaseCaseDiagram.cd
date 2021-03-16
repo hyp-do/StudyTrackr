@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StudentApp.Database.Assessment" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEIAAAAAAAAAQAIEAAEAgAgAEAAAAAAQAAAAAAEAE=</HashCode>
+      <FileName>Database\Assessment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApp.Database.Course" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASEABQAAEBAQABAIAoACAiigAAACAAAQAAAAAAEAAA=</HashCode>
+      <FileName>Database\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApp.Database.CourseNotes">
+    <Position X="12.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQAAAAAAAgAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Database\CourseNotes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApp.Database.Notes">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAACAAAQAIQAAAAgAgAAAAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Database\Notes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApp.Database.PersonalNotes">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Database\PersonalNotes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApp.Database.User" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAEAAAIgAAIAgAgAAAAACCAAACAAACAAA=</HashCode>
+      <FileName>Database\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApp.Term">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQAAAIAAAAIAAAAAgCgAAAAAAQAAEAAAEAAAA=</HashCode>
+      <FileName>Database\Term.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

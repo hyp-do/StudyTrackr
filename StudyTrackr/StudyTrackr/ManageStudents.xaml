@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyTrackr.ManageStudents">
+    <ContentPage.Content>
+        <StackLayout>
+
+                <Image  Source="g18.png"
+                        WidthRequest="{OnPlatform Android=175, iOS=225}"
+                        HorizontalOptions="Start"
+                        Margin="10,10,00,10"/>
+
+                <Label x:Name="userLabel" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Start"
+                       Text="Manage Students"
+                       Margin="5,10,00,5" />
+
+                <Label Text="Students" FontSize="Medium" FontAttributes="Bold"
+                       Margin="5,0,0,0"/>
+                <ScrollView>
+                    <ListView x:Name="userView" ItemSelected="UserView_OnItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Text="{Binding StudentId}" TextColor="Black"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
